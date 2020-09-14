@@ -7,6 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    // pages
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -42,6 +43,13 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Rubik`],
+        display: `swap`,
       },
     },
   ],
