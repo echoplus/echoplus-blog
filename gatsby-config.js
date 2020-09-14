@@ -48,9 +48,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Rubik`],
+        fonts: [`Rubik`, `Source Code Pro`],
         display: `swap`,
       },
     },
+    `gatsby-plugin-styled-components`,
   ],
 }
